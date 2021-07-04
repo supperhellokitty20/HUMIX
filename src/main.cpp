@@ -73,7 +73,7 @@ void setup() {
   Wire.begin();
   lcd.begin(16,2);
   // Set up some decoration 
-  String name = "HUMIX VO" ;
+  String name = "HUMIX V0" ;
   lcd.print(name) ; 
   lcd.createChar(2,heart_symbol) ;
   lcd.setCursor(name.length()+1,0) ;
@@ -82,7 +82,7 @@ void setup() {
   delay(3000);
   lcd.clear() ;
   //Sum marketing for myself cuz im unemployed for so long  
-  String author = "author:bunbo_tainam" ;
+  String author = "author:bunbo_tai" ;
   lcd.print(author) ;
   delay(2000) ;
   lcd.clear() ;
