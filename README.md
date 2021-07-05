@@ -8,10 +8,13 @@
 ## Wiring 
  Mine have 3 pins built in with on board resistor  so connect with the following connection  .  
  DHT11 : 
+
     * VCC -> 5v power current  
     * GND -> Arduino GND 
     * Signal (S)  ->  digital pin 2   
-LCD using i2c module : 
+
+ LCD using i2c module : 
+
     * VCC -> 5v power current  
     * GND -> Arduino GND 
     * SDA -> A4  
